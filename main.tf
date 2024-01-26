@@ -47,6 +47,6 @@ resource "aws_iam_user" "test_user_99" {
 
 }
 
-resource "aws_iam_user "test_user_jane" {
+resource "aws_iam_user" "test_user_jane" {
   name = "dodanie-usera-tymsamymplikiem"
 }
